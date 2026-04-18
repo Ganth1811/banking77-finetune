@@ -1,4 +1,5 @@
 # Banking Intent Classification using Fine-tuned Llama-3.2-1B
+Demonstration video: https://drive.google.com/file/d/1NRCZTYAHMncyBHsdm6aFjPvDSvX204l2/view?usp=sharing
 
 ## 1. Project Overview
 This project focuses on finetuning a model to classify customer queries within the banking domain. By leveraging the **Llama-3.2-1B-Instruct** model and **Parameter-Efficient Fine-Tuning (PEFT)** techniques, the system effectively maps user utterances to specific banking intents.
@@ -39,6 +40,7 @@ We utilize the **Unsloth** framework to optimize memory usage and training speed
 
 ## 5. Inference Guide
 After training and saving the model, you can run the inference system locally. We have provided a shell script to simplify the process.
+
 
 ### Running the Inference Script:
 1.  **Prepare Environment:** Ensure you have installed the required libraries (contained in `requirements.txt`).
